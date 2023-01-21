@@ -21,5 +21,5 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('heart/',include('heart_deses.urls')),
+    url(r'^',include('heart_deses.urls')),
 ]
